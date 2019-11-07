@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451D28432360530400F7CB41 /* UIView+YCMakeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 451D28422360530400F7CB41 /* UIView+YCMakeFrame.m */; };
+		451D28462360536100F7CB41 /* UIView+YCFrameDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 451D28452360536100F7CB41 /* UIView+YCFrameDirection.m */; };
+		451D2A8B236137A600F7CB41 /* UIView+YCFrameProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 451D2A8A236137A600F7CB41 /* UIView+YCFrameProperty.m */; };
 		4533BA6F234F36B2001FA7CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BA6E234F36B2001FA7CF /* AppDelegate.m */; };
 		4533BA72234F36B2001FA7CF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BA71234F36B2001FA7CF /* SceneDelegate.m */; };
 		4533BA75234F36B2001FA7CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BA74234F36B2001FA7CF /* ViewController.m */; };
@@ -16,6 +19,13 @@
 		4533BA80234F36B3001FA7CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BA7F234F36B3001FA7CF /* main.m */; };
 		4533BA8A234F36B4001FA7CF /* YCMakeFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BA89234F36B4001FA7CF /* YCMakeFrameTests.m */; };
 		4533BA95234F36B4001FA7CF /* YCMakeFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BA94234F36B4001FA7CF /* YCMakeFrameUITests.m */; };
+		4533BAA6234F37B9001FA7CF /* YCFrameMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BAA5234F37B9001FA7CF /* YCFrameMaker.m */; };
+		4533BAAD234F3A6C001FA7CF /* YCFrameMakerType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BAAC234F3A6C001FA7CF /* YCFrameMakerType.m */; };
+		4533BAB0234F3B41001FA7CF /* YCFrameMakerOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BAAF234F3B41001FA7CF /* YCFrameMakerOperator.m */; };
+		4533BAB3234F3E28001FA7CF /* YCFrameMakerDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4533BAB2234F3E28001FA7CF /* YCFrameMakerDirection.m */; };
+		45F07E79235EF0C8005B1CE0 /* YCFrameMaker+FrameType.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F07E78235EF0C8005B1CE0 /* YCFrameMaker+FrameType.m */; };
+		45F07E82235EF43C005B1CE0 /* UIView+YCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F07E81235EF43C005B1CE0 /* UIView+YCAddition.m */; };
+		45F07E85235EF9F3005B1CE0 /* YCFrameCommitResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F07E84235EF9F3005B1CE0 /* YCFrameCommitResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451D217A2360375500F7CB41 /* YCMakeFrameMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCMakeFrameMacros.h; sourceTree = "<group>"; };
+		451D28412360530400F7CB41 /* UIView+YCMakeFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YCMakeFrame.h"; sourceTree = "<group>"; };
+		451D28422360530400F7CB41 /* UIView+YCMakeFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YCMakeFrame.m"; sourceTree = "<group>"; };
+		451D28442360536100F7CB41 /* UIView+YCFrameDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YCFrameDirection.h"; sourceTree = "<group>"; };
+		451D28452360536100F7CB41 /* UIView+YCFrameDirection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YCFrameDirection.m"; sourceTree = "<group>"; };
+		451D2A89236137A600F7CB41 /* UIView+YCFrameProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YCFrameProperty.h"; sourceTree = "<group>"; };
+		451D2A8A236137A600F7CB41 /* UIView+YCFrameProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YCFrameProperty.m"; sourceTree = "<group>"; };
 		4533BA6A234F36B2001FA7CF /* YCMakeFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCMakeFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4533BA6D234F36B2001FA7CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4533BA6E234F36B2001FA7CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +71,20 @@
 		4533BA90234F36B4001FA7CF /* YCMakeFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCMakeFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4533BA94234F36B4001FA7CF /* YCMakeFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCMakeFrameUITests.m; sourceTree = "<group>"; };
 		4533BA96234F36B4001FA7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4533BAA4234F37B9001FA7CF /* YCFrameMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCFrameMaker.h; sourceTree = "<group>"; };
+		4533BAA5234F37B9001FA7CF /* YCFrameMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCFrameMaker.m; sourceTree = "<group>"; };
+		4533BAAB234F3A6C001FA7CF /* YCFrameMakerType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCFrameMakerType.h; sourceTree = "<group>"; };
+		4533BAAC234F3A6C001FA7CF /* YCFrameMakerType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCFrameMakerType.m; sourceTree = "<group>"; };
+		4533BAAE234F3B41001FA7CF /* YCFrameMakerOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCFrameMakerOperator.h; sourceTree = "<group>"; };
+		4533BAAF234F3B41001FA7CF /* YCFrameMakerOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCFrameMakerOperator.m; sourceTree = "<group>"; };
+		4533BAB1234F3E28001FA7CF /* YCFrameMakerDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCFrameMakerDirection.h; sourceTree = "<group>"; };
+		4533BAB2234F3E28001FA7CF /* YCFrameMakerDirection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCFrameMakerDirection.m; sourceTree = "<group>"; };
+		45F07E77235EF0C8005B1CE0 /* YCFrameMaker+FrameType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YCFrameMaker+FrameType.h"; sourceTree = "<group>"; };
+		45F07E78235EF0C8005B1CE0 /* YCFrameMaker+FrameType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YCFrameMaker+FrameType.m"; sourceTree = "<group>"; };
+		45F07E80235EF43C005B1CE0 /* UIView+YCAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YCAddition.h"; sourceTree = "<group>"; };
+		45F07E81235EF43C005B1CE0 /* UIView+YCAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YCAddition.m"; sourceTree = "<group>"; };
+		45F07E83235EF9F3005B1CE0 /* YCFrameCommitResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCFrameCommitResult.h; sourceTree = "<group>"; };
+		45F07E84235EF9F3005B1CE0 /* YCFrameCommitResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCFrameCommitResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +141,7 @@
 				4533BA71234F36B2001FA7CF /* SceneDelegate.m */,
 				4533BA73234F36B2001FA7CF /* ViewController.h */,
 				4533BA74234F36B2001FA7CF /* ViewController.m */,
+				4533BAA2234F379E001FA7CF /* MakeFrame */,
 				4533BA76234F36B2001FA7CF /* Main.storyboard */,
 				4533BA79234F36B3001FA7CF /* Assets.xcassets */,
 				4533BA7B234F36B3001FA7CF /* LaunchScreen.storyboard */,
@@ -135,6 +167,50 @@
 				4533BA96234F36B4001FA7CF /* Info.plist */,
 			);
 			path = YCMakeFrameUITests;
+			sourceTree = "<group>";
+		};
+		4533BAA2234F379E001FA7CF /* MakeFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4533BAA7234F3900001FA7CF /* Category */,
+				4533BAA3234F37A8001FA7CF /* Class */,
+			);
+			path = MakeFrame;
+			sourceTree = "<group>";
+		};
+		4533BAA3234F37A8001FA7CF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				45F07E77235EF0C8005B1CE0 /* YCFrameMaker+FrameType.h */,
+				45F07E78235EF0C8005B1CE0 /* YCFrameMaker+FrameType.m */,
+				4533BAA4234F37B9001FA7CF /* YCFrameMaker.h */,
+				4533BAA5234F37B9001FA7CF /* YCFrameMaker.m */,
+				45F07E83235EF9F3005B1CE0 /* YCFrameCommitResult.h */,
+				45F07E84235EF9F3005B1CE0 /* YCFrameCommitResult.m */,
+				4533BAAB234F3A6C001FA7CF /* YCFrameMakerType.h */,
+				4533BAAC234F3A6C001FA7CF /* YCFrameMakerType.m */,
+				4533BAAE234F3B41001FA7CF /* YCFrameMakerOperator.h */,
+				4533BAAF234F3B41001FA7CF /* YCFrameMakerOperator.m */,
+				4533BAB1234F3E28001FA7CF /* YCFrameMakerDirection.h */,
+				4533BAB2234F3E28001FA7CF /* YCFrameMakerDirection.m */,
+				451D217A2360375500F7CB41 /* YCMakeFrameMacros.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4533BAA7234F3900001FA7CF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				45F07E80235EF43C005B1CE0 /* UIView+YCAddition.h */,
+				45F07E81235EF43C005B1CE0 /* UIView+YCAddition.m */,
+				451D28412360530400F7CB41 /* UIView+YCMakeFrame.h */,
+				451D28422360530400F7CB41 /* UIView+YCMakeFrame.m */,
+				451D28442360536100F7CB41 /* UIView+YCFrameDirection.h */,
+				451D28452360536100F7CB41 /* UIView+YCFrameDirection.m */,
+				451D2A89236137A600F7CB41 /* UIView+YCFrameProperty.h */,
+				451D2A8A236137A600F7CB41 /* UIView+YCFrameProperty.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +343,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F07E85235EF9F3005B1CE0 /* YCFrameCommitResult.m in Sources */,
+				4533BAA6234F37B9001FA7CF /* YCFrameMaker.m in Sources */,
+				451D28432360530400F7CB41 /* UIView+YCMakeFrame.m in Sources */,
 				4533BA75234F36B2001FA7CF /* ViewController.m in Sources */,
+				45F07E82235EF43C005B1CE0 /* UIView+YCAddition.m in Sources */,
+				451D2A8B236137A600F7CB41 /* UIView+YCFrameProperty.m in Sources */,
+				45F07E79235EF0C8005B1CE0 /* YCFrameMaker+FrameType.m in Sources */,
+				451D28462360536100F7CB41 /* UIView+YCFrameDirection.m in Sources */,
 				4533BA6F234F36B2001FA7CF /* AppDelegate.m in Sources */,
+				4533BAB0234F3B41001FA7CF /* YCFrameMakerOperator.m in Sources */,
 				4533BA80234F36B3001FA7CF /* main.m in Sources */,
+				4533BAAD234F3A6C001FA7CF /* YCFrameMakerType.m in Sources */,
+				4533BAB3234F3E28001FA7CF /* YCFrameMakerDirection.m in Sources */,
 				4533BA72234F36B2001FA7CF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
